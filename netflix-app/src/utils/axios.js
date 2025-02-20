@@ -1,6 +1,7 @@
-/* eslint-disable no-unused-vars */
-import axios from 'axios';
+import axios from "axios";
+
 const instance = axios.create({
-    baseURL:"https://api.themoviedb.org/3",
-})
-export default axios;
+    baseURL: "https://api.themoviedb.org/3",  // ✅ Ensure correct base URL
+});
+
+export default instance;
