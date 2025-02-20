@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-const APIKEY = "aeafaab06b0532bae1a2b455373e24f7";
+const APIKEY =ProcessingInstruction.env.RECT_APP_APIKEY;
 const requests={
     fetchTreding:`treding/all/week?api_key={}&language=en-us`,
     fetchNetflixOriginals:`/discover/tv?api_key={}&with_networks=213`,
